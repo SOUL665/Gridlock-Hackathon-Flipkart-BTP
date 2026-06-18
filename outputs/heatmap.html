@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0a1e831878e32856054bdefa400e5d2c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0a1e831878e32856054bdefa400e5d2c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0a1e831878e32856054bdefa400e5d2c = L.map(
+                "map_0a1e831878e32856054bdefa400e5d2c",
+                {
+                    center: [12.97, 77.59],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_64776867af8fa053d5ab1d925f38e84b = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_64776867af8fa053d5ab1d925f38e84b.addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+            var circle_marker_f07940d30420fc6753ce36aa0d62859d = L.circleMarker(
+                [12.972104299494253, 77.57759220895734],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 74.38264433171072, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_63a56c560be9cf9c6d9adbd1b9ac2dd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66e8a29624228452dce702b3e080c047 = $(`<div id="html_66e8a29624228452dce702b3e080c047" style="width: 100.0%; height: 100.0%;"><b>KR Market Junction</b><br>Score: 92.2<br>Violations: 49795</div>`)[0];
+                popup_63a56c560be9cf9c6d9adbd1b9ac2dd2.setContent(html_66e8a29624228452dce702b3e080c047);
+            
+        
+
+        circle_marker_f07940d30420fc6753ce36aa0d62859d.bindPopup(popup_63a56c560be9cf9c6d9adbd1b9ac2dd2)
+        ;
+
+        
+    
+    
+            var circle_marker_002a6b10494c6013aac28da482c3a469 = L.circleMarker(
+                [12.981953839179011, 77.60806568917424],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 46.981083663770704, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_34b8240800d47c5a7f0a5679036bdf6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d5fbe1f82e9d95478a4bf3cb882ad4d = $(`<div id="html_2d5fbe1f82e9d95478a4bf3cb882ad4d" style="width: 100.0%; height: 100.0%;"><b>Safina Plaza Junction</b><br>Score: 53.1<br>Violations: 19865</div>`)[0];
+                popup_34b8240800d47c5a7f0a5679036bdf6a.setContent(html_2d5fbe1f82e9d95478a4bf3cb882ad4d);
+            
+        
+
+        circle_marker_002a6b10494c6013aac28da482c3a469.bindPopup(popup_34b8240800d47c5a7f0a5679036bdf6a)
+        ;
+
+        
+    
+    
+            var circle_marker_a03447b0d26c39b6c1bb3742dd397615 = L.circleMarker(
+                [13.010306772864606, 77.55329541719674],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 31.27654428197307, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_30333b72b0d8bb8027cc65de967ece52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbe532e6b2cca31481fc54d1b27e12ff = $(`<div id="html_fbe532e6b2cca31481fc54d1b27e12ff" style="width: 100.0%; height: 100.0%;"><b>10th Cross, Dr. Rajkumar Road</b><br>Score: 36.5<br>Violations: 8804</div>`)[0];
+                popup_30333b72b0d8bb8027cc65de967ece52.setContent(html_fbe532e6b2cca31481fc54d1b27e12ff);
+            
+        
+
+        circle_marker_a03447b0d26c39b6c1bb3742dd397615.bindPopup(popup_30333b72b0d8bb8027cc65de967ece52)
+        ;
+
+        
+    
+    
+            var circle_marker_2baf583caf0de703dbf4882a91f357b8 = L.circleMarker(
+                [13.000537929300958, 77.57106964454094],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.41015912121766, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_5b1454bdb00d8b6f9fae789900367988 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c31ee1178a37d7b78bea6adec229d5f = $(`<div id="html_0c31ee1178a37d7b78bea6adec229d5f" style="width: 100.0%; height: 100.0%;"><b>Anand Rao Junction</b><br>Score: 35.0<br>Violations: 8323</div>`)[0];
+                popup_5b1454bdb00d8b6f9fae789900367988.setContent(html_0c31ee1178a37d7b78bea6adec229d5f);
+            
+        
+
+        circle_marker_2baf583caf0de703dbf4882a91f357b8.bindPopup(popup_5b1454bdb00d8b6f9fae789900367988)
+        ;
+
+        
+    
+    
+            var circle_marker_9e79711a3acf8b367897c704cb25b56b = L.circleMarker(
+                [12.999149314274778, 77.54923853926684],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.230595245361755, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_b45946a6b5be4ca55efdf97f0c763fa4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dc387fa27a81bb6d86e12bc275dd35d = $(`<div id="html_2dc387fa27a81bb6d86e12bc275dd35d" style="width: 100.0%; height: 100.0%;"><b>Modi Bridge Junction</b><br>Score: 32.6<br>Violations: 8225</div>`)[0];
+                popup_b45946a6b5be4ca55efdf97f0c763fa4.setContent(html_2dc387fa27a81bb6d86e12bc275dd35d);
+            
+        
+
+        circle_marker_9e79711a3acf8b367897c704cb25b56b.bindPopup(popup_b45946a6b5be4ca55efdf97f0c763fa4)
+        ;
+
+        
+    
+    
+            var circle_marker_2b40375de4fa0885bd325dfa92a199b7 = L.circleMarker(
+                [13.071030497041566, 77.58841680125856],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.863035105460586, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_75c3e9a50bb363f3cd34f04213af6afe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c61961117a3dc934fdc017814e7ef63 = $(`<div id="html_0c61961117a3dc934fdc017814e7ef63" style="width: 100.0%; height: 100.0%;"><b>Sahakar Nagar Road</b><br>Score: 31.4<br>Violations: 5125</div>`)[0];
+                popup_75c3e9a50bb363f3cd34f04213af6afe.setContent(html_0c61961117a3dc934fdc017814e7ef63);
+            
+        
+
+        circle_marker_2b40375de4fa0885bd325dfa92a199b7.bindPopup(popup_75c3e9a50bb363f3cd34f04213af6afe)
+        ;
+
+        
+    
+    
+            var circle_marker_320f98abf7315c8e0f8813a29988fa10 = L.circleMarker(
+                [12.933343946104046, 77.69013450228341],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.804040139061126, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_6d64514e8b699c1fb80cfb3a0a120fed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa490af9d52da950c11967785742ca3e = $(`<div id="html_aa490af9d52da950c11967785742ca3e" style="width: 100.0%; height: 100.0%;"><b>New Horizon College Road</b><br>Score: 29.9<br>Violations: 8540</div>`)[0];
+                popup_6d64514e8b699c1fb80cfb3a0a120fed.setContent(html_aa490af9d52da950c11967785742ca3e);
+            
+        
+
+        circle_marker_320f98abf7315c8e0f8813a29988fa10.bindPopup(popup_6d64514e8b699c1fb80cfb3a0a120fed)
+        ;
+
+        
+    
+    
+            var circle_marker_d784ab9e9b646fbe574af1f82999105a = L.circleMarker(
+                [12.974525556049775, 77.54724105639956],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.776855677991765, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_1be65a65703a1158ddd0a9a2eb227b00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_812976d738d289193128e465a8f5a08c = $(`<div id="html_812976d738d289193128e465a8f5a08c" style="width: 100.0%; height: 100.0%;"><b>Hosahalli Metro Station</b><br>Score: 29.5<br>Violations: 6453</div>`)[0];
+                popup_1be65a65703a1158ddd0a9a2eb227b00.setContent(html_812976d738d289193128e465a8f5a08c);
+            
+        
+
+        circle_marker_d784ab9e9b646fbe574af1f82999105a.bindPopup(popup_1be65a65703a1158ddd0a9a2eb227b00)
+        ;
+
+        
+    
+    
+            var circle_marker_ec968c995100d58957a65fb8b636f280 = L.circleMarker(
+                [13.185442218107168, 77.68010861506573],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.163385572466634, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_bbe228013ee25b713a1d0f63ed26220d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c5acbe58651aed0ad7afbe348ac427c = $(`<div id="html_1c5acbe58651aed0ad7afbe348ac427c" style="width: 100.0%; height: 100.0%;"><b>Unnamed Road</b><br>Score: 27.7<br>Violations: 4031</div>`)[0];
+                popup_bbe228013ee25b713a1d0f63ed26220d.setContent(html_1c5acbe58651aed0ad7afbe348ac427c);
+            
+        
+
+        circle_marker_ec968c995100d58957a65fb8b636f280.bindPopup(popup_bbe228013ee25b713a1d0f63ed26220d)
+        ;
+
+        
+    
+    
+            var circle_marker_c3a8578a6a26fcd775e82c77b507964f = L.circleMarker(
+                [12.967262358395871, 77.53782637422012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.146684315015435, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_34763b9470b76a16cb1fadb8914ee640 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5523123da3cdf58d1fa9e2fb7d23f0fc = $(`<div id="html_5523123da3cdf58d1fa9e2fb7d23f0fc" style="width: 100.0%; height: 100.0%;"><b>5th Main Road, RPC Layout</b><br>Score: 27.3<br>Violations: 3653</div>`)[0];
+                popup_34763b9470b76a16cb1fadb8914ee640.setContent(html_5523123da3cdf58d1fa9e2fb7d23f0fc);
+            
+        
+
+        circle_marker_c3a8578a6a26fcd775e82c77b507964f.bindPopup(popup_34763b9470b76a16cb1fadb8914ee640)
+        ;
+
+        
+    
+    
+            var circle_marker_3d743df5a0e892dbe4f3944c75f1d7e0 = L.circleMarker(
+                [12.928757876725943, 77.58304143561715],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.575474072716965, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_82398cd286d8433a33e5404991708903 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_527126fa3639efd0fb3c9b6691a2eb14 = $(`<div id="html_527126fa3639efd0fb3c9b6691a2eb14" style="width: 100.0%; height: 100.0%;"><b>New Diagonal Road, Jayanagar</b><br>Score: 26.2<br>Violations: 1912</div>`)[0];
+                popup_82398cd286d8433a33e5404991708903.setContent(html_527126fa3639efd0fb3c9b6691a2eb14);
+            
+        
+
+        circle_marker_3d743df5a0e892dbe4f3944c75f1d7e0.bindPopup(popup_82398cd286d8433a33e5404991708903)
+        ;
+
+        
+    
+    
+            var circle_marker_43f3c33ee83ea3418198d60fe8f454ff = L.circleMarker(
+                [12.8418936688445, 77.64582335470725],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.920408678547401, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_10f092a15bd4222535aba7a47e833cb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a162f6f254d33746c6ea1e5710cd015 = $(`<div id="html_2a162f6f254d33746c6ea1e5710cd015" style="width: 100.0%; height: 100.0%;"><b>Neeladri Road</b><br>Score: 25.3<br>Violations: 1744</div>`)[0];
+                popup_10f092a15bd4222535aba7a47e833cb3.setContent(html_2a162f6f254d33746c6ea1e5710cd015);
+            
+        
+
+        circle_marker_43f3c33ee83ea3418198d60fe8f454ff.bindPopup(popup_10f092a15bd4222535aba7a47e833cb3)
+        ;
+
+        
+    
+    
+            var circle_marker_c1916e5e50e88d0b24c709958d36904b = L.circleMarker(
+                [13.008452270996198, 77.69531924239098],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.632739096836296, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_929e6c00f61da9bcf2469cd27c8fdb87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d740f031f8772e1b994837ad06c1de9 = $(`<div id="html_4d740f031f8772e1b994837ad06c1de9" style="width: 100.0%; height: 100.0%;"><b>MBT Road</b><br>Score: 24.8<br>Violations: 3469</div>`)[0];
+                popup_929e6c00f61da9bcf2469cd27c8fdb87.setContent(html_4d740f031f8772e1b994837ad06c1de9);
+            
+        
+
+        circle_marker_c1916e5e50e88d0b24c709958d36904b.bindPopup(popup_929e6c00f61da9bcf2469cd27c8fdb87)
+        ;
+
+        
+    
+    
+            var circle_marker_9ff4386f9ed472baca2e700c05cbdf49 = L.circleMarker(
+                [12.93915430689001, 77.69670241018359],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.977761292440647, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_2374764b411f87681e11241e4e30a8d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81fe58ec37b64dc1d3c6857e77b6f29c = $(`<div id="html_81fe58ec37b64dc1d3c6857e77b6f29c" style="width: 100.0%; height: 100.0%;"><b>Kadubeesanahalli Underpass</b><br>Score: 24.8<br>Violations: 2019</div>`)[0];
+                popup_2374764b411f87681e11241e4e30a8d9.setContent(html_81fe58ec37b64dc1d3c6857e77b6f29c);
+            
+        
+
+        circle_marker_9ff4386f9ed472baca2e700c05cbdf49.bindPopup(popup_2374764b411f87681e11241e4e30a8d9)
+        ;
+
+        
+    
+    
+            var circle_marker_68e7029b555769628cf2456f739a4a90 = L.circleMarker(
+                [13.035347089781373, 77.58903407130113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.31817555204545, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_79d9617954a2958d5239012b772b6128 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eab9c463c409280f0d6a8afd08ea9e0a = $(`<div id="html_eab9c463c409280f0d6a8afd08ea9e0a" style="width: 100.0%; height: 100.0%;"><b>Bellary Road</b><br>Score: 24.6<br>Violations: 3020</div>`)[0];
+                popup_79d9617954a2958d5239012b772b6128.setContent(html_eab9c463c409280f0d6a8afd08ea9e0a);
+            
+        
+
+        circle_marker_68e7029b555769628cf2456f739a4a90.bindPopup(popup_79d9617954a2958d5239012b772b6128)
+        ;
+
+        
+    
+    
+            var circle_marker_5839ac6abe14d9b65d9bb835e2971cd2 = L.circleMarker(
+                [12.944051204059749, 77.57133521391386],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.613540144521982, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_d13959cfd5d53bd7a8650dfbb56b1b0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_344b7ddb91fb74e52de40dffa08c2cc8 = $(`<div id="html_344b7ddb91fb74e52de40dffa08c2cc8" style="width: 100.0%; height: 100.0%;"><b>Tagore Park Junction</b><br>Score: 24.3<br>Violations: 1922</div>`)[0];
+                popup_d13959cfd5d53bd7a8650dfbb56b1b0e.setContent(html_344b7ddb91fb74e52de40dffa08c2cc8);
+            
+        
+
+        circle_marker_5839ac6abe14d9b65d9bb835e2971cd2.bindPopup(popup_d13959cfd5d53bd7a8650dfbb56b1b0e)
+        ;
+
+        
+    
+    
+            var circle_marker_23e44686380e12849c804d1d19d96810 = L.circleMarker(
+                [12.996264911132354, 77.66854307145094],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.012814197295425, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_a7989e9f5ae6566dea6b125ff695547d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c3594c5ef537c55e337c0f8e8673646 = $(`<div id="html_9c3594c5ef537c55e337c0f8e8673646" style="width: 100.0%; height: 100.0%;"><b>MBT Road</b><br>Score: 23.4<br>Violations: 1524</div>`)[0];
+                popup_a7989e9f5ae6566dea6b125ff695547d.setContent(html_9c3594c5ef537c55e337c0f8e8673646);
+            
+        
+
+        circle_marker_23e44686380e12849c804d1d19d96810.bindPopup(popup_a7989e9f5ae6566dea6b125ff695547d)
+        ;
+
+        
+    
+    
+            var circle_marker_fd6406c862a2e99a770b3d1accbd1e60 = L.circleMarker(
+                [12.97338435462322, 77.61827398636824],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.090024514862893, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_be0098837fdbf99eae3ce9f8e1859b1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e5227e521419c5767b508ab447affae = $(`<div id="html_9e5227e521419c5767b508ab447affae" style="width: 100.0%; height: 100.0%;"><b>Mahatma Gandhi Road</b><br>Score: 22.9<br>Violations: 2330</div>`)[0];
+                popup_be0098837fdbf99eae3ce9f8e1859b1e.setContent(html_9e5227e521419c5767b508ab447affae);
+            
+        
+
+        circle_marker_fd6406c862a2e99a770b3d1accbd1e60.bindPopup(popup_be0098837fdbf99eae3ce9f8e1859b1e)
+        ;
+
+        
+    
+    
+            var circle_marker_335175b5e196b3b8ab49c52051059733 = L.circleMarker(
+                [12.906574173297859, 77.62992953751096],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.76387901058454, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_a8c0bfcccb950f8483fbcc3f9ec91609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edf90185063b74375ff7e931efb4cb15 = $(`<div id="html_edf90185063b74375ff7e931efb4cb15" style="width: 100.0%; height: 100.0%;"><b>Hosapalya Main Road</b><br>Score: 22.7<br>Violations: 858</div>`)[0];
+                popup_a8c0bfcccb950f8483fbcc3f9ec91609.setContent(html_edf90185063b74375ff7e931efb4cb15);
+            
+        
+
+        circle_marker_335175b5e196b3b8ab49c52051059733.bindPopup(popup_a8c0bfcccb950f8483fbcc3f9ec91609)
+        ;
+
+        
+    
+    
+            var circle_marker_2d289f0b05d6d665b78dfdadc2a6f2e1 = L.circleMarker(
+                [12.957889285315861, 77.70160657955894],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.256517540566824, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_dc7e96bb9aeb5e86bb5bf0aa196476bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f8bd1f694199c8d4bd7d632c785dc87 = $(`<div id="html_9f8bd1f694199c8d4bd7d632c785dc87" style="width: 100.0%; height: 100.0%;"><b>Marathahalli Underpass</b><br>Score: 22.6<br>Violations: 1352</div>`)[0];
+                popup_dc7e96bb9aeb5e86bb5bf0aa196476bf.setContent(html_9f8bd1f694199c8d4bd7d632c785dc87);
+            
+        
+
+        circle_marker_2d289f0b05d6d665b78dfdadc2a6f2e1.bindPopup(popup_dc7e96bb9aeb5e86bb5bf0aa196476bf)
+        ;
+
+        
+    
+    
+            var circle_marker_5ed374d965e35a8681546a704c1ab6b1 = L.circleMarker(
+                [12.96095346559406, 77.51171449257426],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.69991708074726, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_c9b995aaacdf6327af9c65b07ce11723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f51b5a62bbdf30051806c0bbb6d7413 = $(`<div id="html_2f51b5a62bbdf30051806c0bbb6d7413" style="width: 100.0%; height: 100.0%;"><b>Mallathahalli Road</b><br>Score: 22.6<br>Violations: 404</div>`)[0];
+                popup_c9b995aaacdf6327af9c65b07ce11723.setContent(html_2f51b5a62bbdf30051806c0bbb6d7413);
+            
+        
+
+        circle_marker_5ed374d965e35a8681546a704c1ab6b1.bindPopup(popup_c9b995aaacdf6327af9c65b07ce11723)
+        ;
+
+        
+    
+    
+            var circle_marker_dc3ff607860cff4718149c43e793b759 = L.circleMarker(
+                [12.97137935147232, 77.59747361755007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.71253485622231, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_0aac4beae2a5003b9ab78036e3748e54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e8c0f152931890835b7fa32b93b9aa7 = $(`<div id="html_8e8c0f152931890835b7fa32b93b9aa7" style="width: 100.0%; height: 100.0%;"><b>Siddalingaiah Circle</b><br>Score: 21.9<br>Violations: 849</div>`)[0];
+                popup_0aac4beae2a5003b9ab78036e3748e54.setContent(html_8e8c0f152931890835b7fa32b93b9aa7);
+            
+        
+
+        circle_marker_dc3ff607860cff4718149c43e793b759.bindPopup(popup_0aac4beae2a5003b9ab78036e3748e54)
+        ;
+
+        
+    
+    
+            var circle_marker_a18ac54becf97b85c2cb67dc65488478 = L.circleMarker(
+                [12.995600062185142, 77.69568560672046],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.65713896669714, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_0a124373b95db50d072c2c74668cdce6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ba11de0e7dd838ff315376e68eb912a = $(`<div id="html_0ba11de0e7dd838ff315376e68eb912a" style="width: 100.0%; height: 100.0%;"><b>Whitefield Road</b><br>Score: 21.9<br>Violations: 1223</div>`)[0];
+                popup_0a124373b95db50d072c2c74668cdce6.setContent(html_0ba11de0e7dd838ff315376e68eb912a);
+            
+        
+
+        circle_marker_a18ac54becf97b85c2cb67dc65488478.bindPopup(popup_0a124373b95db50d072c2c74668cdce6)
+        ;
+
+        
+    
+    
+            var circle_marker_f623f95ea428ad7827a8c7d5d6644476 = L.circleMarker(
+                [13.027870219558098, 77.57468421785657],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.85254706406647, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_006521790c8ec01425c9c71103ddfe52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13900666a192551e2c5f8952af5198cc = $(`<div id="html_13900666a192551e2c5f8952af5198cc" style="width: 100.0%; height: 100.0%;"><b>80 Feet Road</b><br>Score: 21.9<br>Violations: 1060</div>`)[0];
+                popup_006521790c8ec01425c9c71103ddfe52.setContent(html_13900666a192551e2c5f8952af5198cc);
+            
+        
+
+        circle_marker_f623f95ea428ad7827a8c7d5d6644476.bindPopup(popup_006521790c8ec01425c9c71103ddfe52)
+        ;
+
+        
+    
+    
+            var circle_marker_feb0542359429f8586e75d2a8b14c383 = L.circleMarker(
+                [12.98570200064053, 77.55437359540687],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.561430130683084, "stroke": true, "weight": 3}
+            ).addTo(map_0a1e831878e32856054bdefa400e5d2c);
+        
+    
+        var popup_2d2d092bdc7974b5ba6f7cb0bcd1daf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c942cfff3db3fb550d5c00e3cdb193bb = $(`<div id="html_c942cfff3db3fb550d5c00e3cdb193bb" style="width: 100.0%; height: 100.0%;"><b>Bhashyam Circle</b><br>Score: 21.5<br>Violations: 1203</div>`)[0];
+                popup_2d2d092bdc7974b5ba6f7cb0bcd1daf2.setContent(html_c942cfff3db3fb550d5c00e3cdb193bb);
+            
+        
+
+        circle_marker_feb0542359429f8586e75d2a8b14c383.bindPopup(popup_2d2d092bdc7974b5ba6f7cb0bcd1daf2)
+        ;
+
+        
+    
+</script>
+</html>
