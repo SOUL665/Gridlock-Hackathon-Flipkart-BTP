@@ -41,7 +41,7 @@ Circle size = violation volume
 
 1. Clone the repo
 
-   Link -
+   Link - https://github.com/SOUL665/Gridlock-Hackathon-Flipkart-BTP
 
 2. Install dependencies
   pip install -r requirements.txt
@@ -106,4 +106,5 @@ Note - Raw dataset not included due to size and licensing. Download from the hac
 ## Author
 
 Username - SOUL665
-Profile Link - 
+
+Profile Link - https://github.com/SOUL665
